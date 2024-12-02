@@ -4,7 +4,7 @@ A side project I made while learning about GAN models. A detailed explination ca
 
 This model is able to take in an image such as the one below:
 
-![Copy of Copy of Copy of forest_texture](https://github.com/user-attachments/assets/90588428-3251-4ec2-b66a-7edb9f7f9571)
+![Copy of Copy of Copy of forest_texture](https://github.com/user-attachments/assets/d0f9bb40-d092-41ab-9631-d083018883e8)
 
 And output a texture based off of the original image however large the user wants:
 
