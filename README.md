@@ -2,7 +2,7 @@
 
 This project implements a deep generative model for **texture synthesis** using a specially designed GAN (Generative Adversarial Network) architecture.
 
-It loads a pretrained generator and produces high-quality textures from random noise.
+It loads a pre-trained generator and produces high-quality textures from random noise.
 
 <p align="center">
   <img src="outputs/generated.png" alt="Example Output" width="500"/>
@@ -14,7 +14,7 @@ It loads a pretrained generator and produces high-quality textures from random n
 
 This model was trained using a custom GAN architecture with upsampling blocks and a rich noise input to produce diverse, detailed texture images.
 
-Training was performed in Google Colab using GPU acceleration. The repo contains a streamlined `main.py` for generating textures using the pretrained generator.
+Training was performed in Google Colab using GPU acceleration. The repo contains a streamlined `main.py` for generating textures using the pre-trained generator.
 
 ---
 
@@ -48,7 +48,7 @@ outputs/generated.png
 
 ## Pretrained Weights
 
-> Download the pretrained model here: [generator.pth on Google Drive](https://drive.google.com/your-link)
+> Download the pre-trained model here: [generator.pth on Google Drive](https://drive.google.com/file/d/13sD0gxnugd4bPHbcLBjWDtv13KbGeecu/view?usp=sharing)
 
 Save the file as `generator.pth` in the project root.
 
@@ -58,7 +58,7 @@ Save the file as `generator.pth` in the project root.
 
 The generator is built from a stack of upsampling + convolutional layers with `ReLU` activations and a final `Tanh` output layer. A large stochastic noise map is used as input to produce diverse and high-res textures.
 
-> See the full architecture in [`main.py`](main.py)
+> See the full architecture in the Google Collab link
 
 ---
 
