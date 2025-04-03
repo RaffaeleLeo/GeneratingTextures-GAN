@@ -62,7 +62,7 @@ The generator is built from a stack of upsampling + convolutional layers with `R
 
 ---
 
-## Training (Optional)
+## Training
 
 Training was done in Colab using a custom dataset and the same generator defined here.  
 If you're interested in retraining on a texture of your choice:
