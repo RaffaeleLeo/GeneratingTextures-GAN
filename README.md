@@ -64,7 +64,7 @@ The generator is built from a stack of upsampling + convolutional layers with `R
 
 ## Training
 
-Training was done in Colab using a custom dataset and the same generator defined here.  
+All training was done in Colab using a custom dataset and the same generator defined here.  
 If you're interested in retraining on a texture of your choice:
 
 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bmqDHxv2QKZ_Vo6BKHL1rZySpNXnQJE1?usp=sharing)
